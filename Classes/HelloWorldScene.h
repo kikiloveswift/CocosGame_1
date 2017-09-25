@@ -10,7 +10,7 @@ public:
 
     virtual bool init();
     
-    // a selector callback
+    // fs fas
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     void btnClick(Ref *btn);
