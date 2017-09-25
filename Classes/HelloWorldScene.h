@@ -10,7 +10,7 @@ public:
 
     virtual bool init();
     
-    // fs fas
+    // 按钮点击事件
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     void btnClick(Ref *btn);
