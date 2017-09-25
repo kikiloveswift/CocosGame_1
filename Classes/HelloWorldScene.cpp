@@ -84,7 +84,7 @@ bool HelloWorld::init()
 void HelloWorld::btnClick(Ref *btn)
 {
     std::cout << "btn Click" << std::endl;
-    Director::getInstance() -> replaceScene(TestScene::createScene());
+    Director::getInstance() -> replaceScene(TransitionSlideInT::create(3.0f, TestScene::createScene()));
 }
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
